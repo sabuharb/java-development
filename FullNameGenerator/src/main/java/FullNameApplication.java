@@ -1,5 +1,4 @@
 package com.pluralsight;
-import java.lang.invoke.StringConcatException;
 import java.util.Scanner;
 
 public class FullNameApplication {
