@@ -6,7 +6,7 @@ public class FullNameApplication {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Please enter your first name: ");
-        boolean firstName = scanner.hasNextLine();
+        String firstName = scanner.nextLine().trim();
 
         System.out.print("Please enter your middle name (press enter if none): ");
         String middleName = scanner.nextLine().trim();
